@@ -24,7 +24,7 @@ public:
         ListNode* meet = head; //stays still till fast and slow meet and move one step at a time after they meet
 
         //base case -> no linked list, only one node.
-        if(head == nullptr or head->next == nullptr){
+        if(head == nullptr || head->next == nullptr){
             pos = -1;
             return nullptr;
         }
