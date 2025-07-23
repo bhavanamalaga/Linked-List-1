@@ -1,5 +1,5 @@
-//time complexity:
-//space complexity:
+//time complexity: O(n) as we have done in only one pass and travelled all nodes
+//space complexity: O(1) we are not using any extra space.
 //Idea: 1. travel the whole linked list and then find the length of the linked list an dthen come back and find the node which we need to find.
 //How to do it in one pass?
 //similar to finding the mid point question take two pointers fast and slow and fast starts  n+1 steps ahead of slow again of slow and both starts from a node before head (lets assume) call it dummy. and when fast reach nullptr then slow-next becomes the node to delete.
